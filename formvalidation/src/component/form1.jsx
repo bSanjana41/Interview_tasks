@@ -7,7 +7,7 @@ const Form1 = () => {
     })
 
     const submitHadler = (e) => {
-        e.prevent.default(e)
+        e.preventDefault()
         console.log("form submitted", input)
     }
 
