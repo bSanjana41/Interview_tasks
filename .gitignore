@@ -1,3 +1,22 @@
-node_modules
-# Ignore all env files everywhere
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
 **/.env
+.env.local
+**/.env.local
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
